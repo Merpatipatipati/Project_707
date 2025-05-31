@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pengenalan Diri</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+max-width: 600px;
+margin: 40px auto;
+padding: 20px;
+background-color: #f4f6f8;
+color: #333;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+color: #005f73;
+text-align: center;
+}
+p {
+line-height: 1.6;
+}
+.photo {
+display: block;
+margin: 0 auto 20px auto;
+border-radius: 50%;
+}
+</style>
+</head>
+<body>
+<h1>Halo, Saya <NAMA KAMU></h1>
+<!-- Foto profil otomatis (template SVG) -->
+<svg width="150" height="150" class="photo" xmlns="http://www.w3.org/2000/svg">
+<circle cx="75" cy="75" r="70" fill="#ccc" stroke="#005f73" stroke-width="4"/>
+
+<text x="50%" y="50%" text-anchor="middle" fill="#005f73" dy=".3em" font-size="20" font-
+family="Arial">Foto</text>
+
+</svg>
+<p>Perkenalkan, saya adalah mahasiswa Teknik Keamanan Siber di Politeknik Negeri Batam. Saya
+tertarik dalam bidang keamanan jaringan dan pengembangan aplikasi yang aman.</p>
+<p>Saya sedang belajar konfigurasi jaringan, layanan web, serta berbagai teknologi keamanan
+untuk mempersiapkan diri menjadi profesional di bidang cybersecurity.</p>
+<p>Terima kasih sudah berkunjung ke halaman pengenalan diri saya.</p>
+
+</body>
+</html>
